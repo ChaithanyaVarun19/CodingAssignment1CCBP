@@ -1,0 +1,9 @@
+GET http://localhost:3000/todos/?date=2021-01-12
+###
+PUT http://localhost:3000/todos/6
+Content-Type: application/json
+
+
+{
+  "todo": "Finalize event themes",
+}
